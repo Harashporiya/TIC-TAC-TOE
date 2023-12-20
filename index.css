@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap'); 
+*{
+   font-family: 'fredoka';
+    margin: 0;
+    padding: 0;
+}
+#over{
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.74);
+    top: 0;
+    visibility: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,120px);
+    row-gap: 10px;
+   justify-content: center;
+  
+}
+body{
+      background-color: rgb(19, 37, 236);
+}
+.div1{
+    box-shadow: 5px 5px 5px rgb(224, 224, 227);
+    border-radius: 10px;
+    background-color: rgb(179, 181, 183);
+   
+}
+.task{
+    color:rgb(153, 255, 0);
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 40px;
+   
+}
+#box{
+    margin-top: 150px;
+}
+.div1{
+    font-size: 70px;
+    color: rgb(255, 98, 0);
+    text-align: center;
+}
+#h1{
+    color: rgb(67, 219, 17);
+    font-size: 50px;
+    font-family: 'cursive';
+}
+#playagain{
+    font-size: 50px;
+    color: rgb(67, 219, 17);
+    background: none;
+    border: none;
+}
